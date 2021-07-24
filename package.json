@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod --extra-webpack-config webpack.partial.js",
     "watch": "ng build --watch",
     "test": "ng test",
     "lint": "ng lint",
@@ -26,7 +26,9 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.2",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "bootstrap": "^5.0.2",
+    "imagemin-webpack-plugin": "^2.4.2",
     "jquery": "^3.6.0",
+    "ngx-build-plus": "^11.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
