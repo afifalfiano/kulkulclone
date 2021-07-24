@@ -1,0 +1,18 @@
+
+#navbarSupportedContent {
+    // display: flex;
+    justify-content: flex-end;
+    column-gap: 25px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 1);
+}
+
+.navbar {
+    padding: 1em 9em 1em 9em;
+}
+
+.navbar-brand {
+    min-width: 44px;
+}

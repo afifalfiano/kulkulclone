@@ -1,0 +1,50 @@
+.container {
+    background-image: url('../../../assets//images/bg/Our-service.webp');
+    background-size: cover;
+    min-height: 950px;
+h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+p {
+    margin-bottom: 40px;
+}
+}
+.row {
+    margin-top: 40px;
+    .services:hover {
+        background-color: #fff;    
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%); 
+        border-radius: 10px;
+        cursor: pointer;
+        padding-left: 1.4em;
+        padding-right:  1.4em;
+    }
+
+    .services {
+        a {
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            font-size: 20px;
+            font-weight: 500;
+            text-decoration: none;
+            color: #113151
+        }
+
+        p {
+            font-weight: 200;
+            font-size: 16px;
+        }
+    }
+}
+
+fa-icon {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 5px 10px;
+    background: #eaeaea;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid #c7c7c7;
+}
