@@ -26,7 +26,7 @@ import { FooterComponent } from './shared/footer/footer.component';
     LeadsComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     FontAwesomeModule
   ],
