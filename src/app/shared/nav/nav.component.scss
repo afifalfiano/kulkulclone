@@ -16,3 +16,9 @@
 .navbar-brand {
     min-width: 44px;
 }
+
+@media screen and (max-width: 425px) {
+    .navbar {
+        padding: 0 !important;
+    }
+}

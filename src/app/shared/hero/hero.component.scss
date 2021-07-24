@@ -7,3 +7,39 @@ h1 {
         font-weight: 400;
     }
 }
+
+
+@media screen and (max-width: 425px) {
+    .container {
+        padding: 1em !important;
+    }
+
+    .container-fluid {
+        display: block !important;
+        padding: 1em !important;
+    }
+
+    .hero {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .trusted {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            max-width: 40%;
+            margin: 10px 0;
+        }
+    }
+}
