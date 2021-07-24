@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "dev:ssr": "ng run kulkulclone:serve-ssr",
     "serve:ssr": "node dist/kulkulclone/server/main.js",
-    "build": "ng build --prod && ng run kulkulclone:server:production",
+    "build:ssr": "ng build --prod && ng run kulkulclone:server:production",
     "prerender": "ng run kulkulclone:prerender"
   },
   "private": true,
