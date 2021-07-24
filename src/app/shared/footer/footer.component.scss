@@ -1,0 +1,71 @@
+
+fa-icon {
+    color: gray;
+}
+
+.icon {
+    justify-content: space-around;
+    font-size: 24px;
+}
+
+h3 {
+    color: #5E5B5B;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.brand {
+    display: flex;
+    gap: 15px;
+    row-gap: 15px;
+    text-align: center;
+    column-gap: 15px;
+    flex-wrap: wrap;
+}
+
+
+button {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a {
+    display: block;
+    color: #5E5B5B;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+
+    fa-icon:hover {
+        color: var(--bs-primary);
+    }
+}
+
+a:hover {
+    color: var(--bs-primary);
+}
+
+.subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.info-footer {
+    color: #5e5b5b;
+    font-size: 12px;
+}
+
+
+.info {
+    font-size: 14px;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+.warning {
+    font-size: 10px;
+    color: #626262;
+}

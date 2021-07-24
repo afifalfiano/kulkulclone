@@ -10,6 +10,8 @@ import { OurServicesComponent } from './shared/our-services/our-services.compone
 import { WhyKulkulComponent } from './shared/why-kulkul/why-kulkul.component';
 import { TestimonialComponent } from './shared/testimonial/testimonial.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { LeadsComponent } from './shared/leads/leads.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,9 +19,11 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     NavComponent,
     LandingPageComponent,
     HeroComponent,
+    FooterComponent,
     OurServicesComponent,
     WhyKulkulComponent,
-    TestimonialComponent
+    TestimonialComponent,
+    LeadsComponent
   ],
   imports: [
     BrowserModule,
