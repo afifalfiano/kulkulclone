@@ -4,14 +4,13 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
     "watch": "ng build --watch",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "dev:ssr": "ng run kulkulclone:serve-ssr",
     "serve:ssr": "node dist/kulkulclone/server/main.js",
-    "build:ssr": "ng build --prod && ng run kulkulclone:server:production",
+    "build": "ng build --prod && ng run kulkulclone:server:production",
     "prerender": "ng run kulkulclone:prerender"
   },
   "private": true,
