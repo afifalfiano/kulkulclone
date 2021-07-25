@@ -4,6 +4,7 @@
     min-height: 650px;
     h2 {
         margin-bottom: 1em;
+        font-size: 30px;
     }
 
     .img-profile {
@@ -32,5 +33,23 @@
             font-size: 20px;
             font-weight: 400;
         }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        padding: 1em !important;
+    }
+
+    .testimoni {
+        justify-content: center;
+    }
+
+    .star {
+        max-width: 350px !important;
+    }
+
+    .col-lg-9 {
+        margin-bottom: 4em;
     }
 }

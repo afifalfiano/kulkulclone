@@ -74,6 +74,41 @@ a:hover {
 
 @media screen and (max-width: 425px) {
     .container {
-        padding: 0 !important;
+        padding: 3em !important;
+
+        .row:first-child {
+            margin-top: 0 !important;
+        }
+        .serv {
+            margin-top: 3em !important;
+        }
+
+        .serv:first-child {
+            margin-top: 0 !important;
+        }
+        .footer-1 {
+            padding-top: 0 !important;
+
+            img:first-child{
+                max-width: 200px;
+            }
+        }
+
+        .icon {
+            justify-content: flex-start;
+            gap: 25px;
+        }
+
+        .brand {
+            justify-content: space-between;
+            margin: 0 40px;
+            img {
+                min-width: 100px;
+            }
+        }
+
+        .info-footer {
+            margin-top: 3em
+        }
     }
 }
