@@ -8,6 +8,17 @@ h1 {
     }
 }
 
+.trusted {
+    display: flex;
+}
+
+.wrap-trust {
+    display: flex !important;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 
 @media screen and (max-width: 425px) {
     .container {
@@ -19,6 +30,10 @@ h1 {
         padding: 1em !important;
     }
 
+    .wrap-hero {
+        padding: 0 !important;
+    }
+
     .hero {
         padding: 0 !important;
         margin: 0 !important;
@@ -27,6 +42,10 @@ h1 {
 
     h1 {
         font-size: 26px;
+    }
+
+    .wrap-trust {
+        margin: 0 !important;
     }
 
     .trusted {

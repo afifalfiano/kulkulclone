@@ -15,7 +15,7 @@
     }
     
     .carousel-control-prev, .carousel-control-next {
-        width: 14%;
+        width: 7%;
     }
 
     .carousel-indicators [data-bs-target] {
@@ -55,6 +55,10 @@
 @media screen and (max-width: 425px) {
     .container {
         padding: 1em !important;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        width: 14%;
     }
 
     .testimoni {
