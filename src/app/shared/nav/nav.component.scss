@@ -21,4 +21,23 @@
     .navbar {
         padding: 0 !important;
     }
+    #navbarDropdown {
+        margin: 10px !important;
+    }
+
+    #navbarSupportedContent {
+            button {
+                margin-bottom: 20px !important;
+            }
+    }
+    .nav-link dropdown-toggle {
+        color: red;
+    }
+
+    .dropdown-toggle::after {
+        float: right;
+        font-size: 20px;
+        margin-right: 0.25em;
+    }
+
 }
