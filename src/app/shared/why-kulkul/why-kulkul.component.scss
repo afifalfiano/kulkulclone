@@ -22,7 +22,8 @@
         }
 
         .carousel-indicators {
-            position: relative;
+            position: absolute;
+            transform: translateY(38px);
         }
     }
 }
@@ -30,5 +31,10 @@
 @media screen and (max-width: 425px) {
     .container {
         padding: 2em !important;
+        min-height: 640px !important;
+
+        .carousel-indicators {
+            transform: translateY(50px) !important;
+        }
     }
 }
