@@ -70,7 +70,49 @@ a:hover {
     color: #626262;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 2em !important;
 
+        .serv {
+            margin-top: 2em;
+        }
+
+        .footer-1 {
+            padding-top: 0 !important;
+
+            img:first-child {
+                max-width: 200px !important;
+            }
+        }
+
+    
+        .brand {
+            display: flex;
+            gap: 15px;
+            row-gap: 15px;
+            text-align: center;
+            column-gap: 15px;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-content: center;
+            align-items: center;
+            img {
+                min-width: 100px;
+            }
+        }
+
+        .icon {
+            justify-content: flex-start;
+            gap: 25px;
+        }
+
+        .info-footer {
+            margin-top: 2em;
+            margin-bottom: 1em;
+        }
+    }
+}
 
 @media screen and (max-width: 425px) {
     .container {

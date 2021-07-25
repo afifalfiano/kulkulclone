@@ -25,6 +25,12 @@
 .dropdown-item {
     padding: 1em 1em;
 }
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 1em !important;
+    }
+}
 @media screen and (max-width: 425px) {
     .navbar {
         padding: 0 !important;
