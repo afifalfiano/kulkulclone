@@ -114,3 +114,25 @@ fa-icon {
         }
     }
 }
+
+@media screen and (max-width: 425px) {
+    .wrap-trust {
+        margin: 20px 0 0 0 !important;
+    }
+
+    .container {
+        padding: 0em 1em !important;
+    }
+
+    .hero-title {
+        padding: 3em 3em 0 3em;
+    }
+
+    .trusted {
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        div {
+            max-width: 33%;
+        }
+    }
+}

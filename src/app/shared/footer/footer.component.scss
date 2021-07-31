@@ -200,15 +200,40 @@ a:hover {
         }
 
         .brand {
-            justify-content: space-between;
+            // gap: 0px;
+            /* row-gap: 15px; */
+            display: flex;
+            text-align: center;
+            margin: 0 !important;
+            column-gap: 0px;
+            justify-content: space-around;
+            padding-top: 20px;
+            flex-direction: row;
             margin: 0 40px;
+            align-items: center;
             img {
-                min-width: 100px;
+                min-width: 120px;
+                width: 120px;
             }
         }
 
+        .brand-1 {
+            min-width: 40px;
+            width: 40px;
+        }
+    
+        .brand-2 {
+            min-width: 50px;
+            width: 50px;
+        }
+        
+
         .info-footer {
             margin-top: 3em
+        }
+
+        .icon {
+            padding-bottom: 0;
         }
     }
 }

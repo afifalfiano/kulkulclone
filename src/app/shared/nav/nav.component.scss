@@ -67,6 +67,16 @@
 @media screen and (max-width: 1024px) {
     .navbar {
         padding: 0 !important;
+
+        button {
+            border: 0;
+            color: #000;
+
+            .navbar-toggler-icon {
+                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' fill='%234514D0' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+              }
+        }
+        
     }
 
     #navbarDropdown {
@@ -82,8 +92,9 @@
             background: #fff;
             position: absolute;
             width: 100%;
-            top: 3.5em;
+            top: 4.5em;
             padding: 20px 20px 10px 20px;
+            box-shadow: 0px 0px 5px rgb(0 0 0 / 25%);
             left: 0;
             border-radius: 0 0 15px 15px;
     }
@@ -115,6 +126,7 @@
             position: absolute;
             width: 100%;
             top: 4.5em;
+            box-shadow: 0px 0px 5px rgb(0 0 0 / 25%);
             padding: 20px 20px 10px 20px;
             left: 0;
             border-radius: 0 0 15px 15px;
