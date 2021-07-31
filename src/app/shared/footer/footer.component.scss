@@ -113,6 +113,20 @@ a:hover {
     color: #626262;
 }
 
+@media screen and (max-width: 768px) {
+
+    .footer-1 {
+        display: flex;
+        justify-content: flex-start;
+        .logo {
+            img:first-child {
+                width: 100px !important;
+                min-width: 100px !important;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .container {
         padding: 0 2em !important;
@@ -127,10 +141,6 @@ a:hover {
 
         .footer-1 {
             padding-top: 0 !important;
-
-            img:first-child {
-                max-width: 200px !important;
-            }
         }
 
     

@@ -52,3 +52,11 @@ p {
         padding: 4em !important;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .services {
+        img {
+            width: 50px;
+        }
+    }
+}
