@@ -174,7 +174,7 @@ a:hover {
 
 @media screen and (max-width: 425px) {
     .container {
-        padding: 3em !important;
+        padding: 3em 3em 0 3em!important;
 
         .row:first-child {
             margin-top: 0 !important;

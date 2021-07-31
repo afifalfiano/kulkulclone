@@ -1,0 +1,19 @@
+#ontop {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    position: sticky;
+    filter: grayscale(1);
+    opacity: .5;
+    bottom: 0;
+    right: 0;
+    justify-content: flex-end;
+
+    button {
+        width: 40px;
+    }
+}
+
+.hidden {
+    visibility: hidden;
+}
