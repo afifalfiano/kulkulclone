@@ -1,15 +1,21 @@
 .container {
     background-image: url('../../../assets//images/bg/Our-service.webp');
     background-size: cover;
-    min-height: 950px;
+    min-height: 860px;
+    padding: 5em 3em 3em 3em;
+
 h2 {
     font-size: 36px;
     margin-bottom: 40px;
+    color: var(--bs-primary);
 }
 p {
+    color: #4a4a4a;
     margin-bottom: 40px;
+    font-size: 20px;
 }
 }
+
 .row {
     margin-top: 40px;
     .services:hover {
@@ -27,7 +33,7 @@ p {
             margin-top: 20px;
             margin-bottom: 15px;
             font-size: 20px;
-            font-weight: 500;
+            font-weight: bold;
             text-decoration: none;
             color: #113151
         }
@@ -35,18 +41,10 @@ p {
         p {
             font-weight: 200;
             font-size: 16px;
+            color: #4a4a4a;
+            max-width: 339px;
         }
     }
-}
-
-fa-icon {
-    margin-top: 15px;
-    display: inline-block;
-    padding: 5px 10px;
-    background: #eaeaea;
-    border-radius: 5px;
-    font-size: 20px;
-    border: 1px solid #c7c7c7;
 }
 
 @media screen and (max-width: 425px) {
