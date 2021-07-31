@@ -61,15 +61,20 @@ fa-icon {
     color: var(--bs-primary);
 }
 
-@media screen and (max-width: 768px) {
-    .container {
-        padding: 1em !important;
-    }
-}
+// @media screen and (max-width: 1024px) {
+//     .container {
+//         padding: 1em !important;
+//     }
+// }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1024px) {
     .container {
-        padding: 1em !important;
+        padding: 0em !important;
+        margin: 0 3.3em !important;
+    }
+
+    .wrap-trust {
+        flex-direction: column;
     }
 
     .container-fluid {
@@ -92,13 +97,13 @@ fa-icon {
     }
 
     .wrap-trust {
-        margin: 0 !important;
+        margin: 2em !important;
     }
 
     .trusted {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         align-content: center;
         justify-content: center;
         align-items: center;

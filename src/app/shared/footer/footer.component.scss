@@ -113,11 +113,15 @@ a:hover {
     color: #626262;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .container {
         padding: 0 2em !important;
 
         .serv {
+            margin-top: 2em;
+        }
+
+        .col-lg-12 {
             margin-top: 2em;
         }
 
