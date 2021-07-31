@@ -1,6 +1,6 @@
 h1 {
     line-height: 1.4em;
-    font-size: 2.4rem;
+    font-size: 40px;
     font-weight: bold;
 
     span {
@@ -8,8 +8,44 @@ h1 {
     }
 }
 
+.heros {
+    padding: 0 3em 0 3em;
+}
+
+.nol-space {
+    padding: 0;
+    margin: 0;
+}
+
+.hero-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    button {
+        width: 230px;
+        height: 45px;
+    }
+}
+
 .trusted {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    div {
+        max-width: 200px;
+        padding: 0 15px;
+        img {
+            filter: grayscale(100%);
+        }
+    }
+    
+}
+
+.wrap-hero {
+    padding: 0;
+    margin: 0;
 }
 
 .wrap-trust {
@@ -17,6 +53,12 @@ h1 {
     align-content: center;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+    padding: 2em;
+}
+
+fa-icon {
+    color: var(--bs-primary);
 }
 
 @media screen and (max-width: 768px) {

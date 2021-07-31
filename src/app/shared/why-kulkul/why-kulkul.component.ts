@@ -12,7 +12,6 @@ export class WhyKulkulComponent implements OnInit {
 
   @HostListener('window:resize', ['$event'])
   onResize(event: { target: { innerWidth: any; }; }) {
-    console.log(event.target.innerWidth);
     const width = event.target.innerWidth;
     if (width < 426) {
       this.showCarousel = true;
